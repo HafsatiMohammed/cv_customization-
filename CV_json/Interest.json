@@ -1,0 +1,22 @@
+interests = {
+    # key = broad theme, value = list of specific interests
+    "Outdoor & Sports": [
+        "Trail running",
+        "Gym & cross training",
+    ],
+
+    "Music & Audio": [
+        "Audio production (Deep house & pop beats)",
+        "Audio plug-in for audio production softwares",
+    ],
+
+    "Tech & Learning": [
+        "Open-source ML contributions",
+        "paper_reviewing (ICRA, Interspeech, ICASSP)",
+    ],
+
+    "Culture & Languages": [
+        "Personal development reading",
+        "Arabic calligraphy",
+    ],
+}

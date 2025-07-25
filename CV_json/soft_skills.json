@@ -1,0 +1,51 @@
+soft_skills = {
+    # 1 ---------- Leadership & Team Collaboration ----------
+    "Leadership & Team Collaboration": [
+        "Guided small cross-functional squads toward sprint goals",
+        "Set clear priorities and unblocked teammates proactively",
+        "Modelled 'servant-leader' mindset - hands-on when needed",
+        "Built trust through transparent decision-making",
+    ],
+
+    # 2 ---------- Strategic Thinking & Road-Mapping ------
+    "Strategic Thinking & Road-Mapping": [
+        "Translated product vision into quarterly technical roadmaps",
+        "Balanced quick wins vs. long-term architecture health",
+        "Ran lightweight SWOT / ROI analyses for feature proposals",
+    ],
+
+    # 3 ---------- Project Coordination & Agile Practices --
+    "Project Coordination & Agile Practices": [
+        "Facilitated sprint planning, stand-ups, retrospectives",
+        "Maintained Kanban board & burn-down charts for visibility",
+        "Tracked risks / action items in RAID log or shared doc",
+    ],
+
+    # 4 ---------- Communication & Stakeholder Alignment ---
+    "Communication & Stakeholder Alignment": [
+        "Synthesised complex tech updates into exec-friendly decks",
+        "Negotiated trade-offs with PM / Design / QA",
+        "Chaired demo sessions to gather early feedback",
+    ],
+
+    # 5 ---------- Mentoring & Knowledge Sharing -----------
+    "Mentoring & Knowledge Sharing": [
+        "On-boarded new hires through pairing & code reviews",
+        "Authored best-practice docs and internal workshops",
+        "Encouraged 'fail-fast' culture with post-mortems",
+    ],
+
+    # 6 ---------- Problem-Solving & Decision-Making ------
+    "Problem-Solving & Decision-Making": [
+        "Drove root-cause analyses for production incidents",
+        "Applied data-driven approach to select ML models",
+        "Made just-enough decisions under ambiguity & time-pressure",
+    ],
+
+    # 7 ---------- Adaptability & Growth Mindset -----------
+    "Adaptability & Growth Mindset": [
+        "Quickly up-skilled on emerging AI frameworks",
+        "Embraced feedback loops to refine processes",
+        "Thrived in remote, multicultural teams (English/French)",
+    ],
+}

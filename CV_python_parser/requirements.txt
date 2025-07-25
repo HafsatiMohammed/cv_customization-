@@ -1,0 +1,12 @@
+# CV Parser Requirements
+# This project uses only standard library modules, so no external dependencies are required
+
+# Standard library modules used:
+# - os
+# - re
+# - ast
+# - pathlib
+# - typing
+# - sys
+
+# No external packages required 

@@ -1,0 +1,14 @@
+languages = {
+    "English": {
+        "level": "C1",
+        "descriptor": "Professional Working Proficiency",
+    },
+    "French": {
+        "level": "Native",
+        "descriptor": "Mother Tongue / Fluent",
+    },
+    "Arabic": {
+        "level": "Fluent",
+        "descriptor": "Full Professional Proficiency",
+    },
+}

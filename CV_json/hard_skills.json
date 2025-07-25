@@ -1,0 +1,82 @@
+hard_skills = {
+    # 1 ---------- Edge AI  & Embedded Systems ----------
+    "Edge AI & Embedded Systems": [
+        "NVIDIA Jetson (Nano / Xavier NX / Orin NX / Orin AGX)",
+        "JetPack SDK & BSP tweaks",
+        "TensorRT (INT8/FP8, graph fusion)",
+        "ONNX / ONNX Graph Surgeon",
+        "CUDA & cuDNN kernel profiling",
+        "Real-time Linux / Yocto",
+    ],
+
+    # 2 ---------- 3-D Audio & Signal Processing --------
+    "3-D Audio & Signal Processing": [
+        "STFT / FFT / filter-bank DSP",
+        "Beamformings",
+        "Neural source separation & speech enhancement",
+        "Ambisonics (FOA / HOA) rendering",
+        "Personalised HRTF fitting",
+        "CUDA-accelerated audio kernels",
+        "librosa, torchaudio, PortAudio",
+        "speechbrain",
+    ],
+
+    # 3 ---------- Conversational AI & LLM Agents -------
+    "Conversational AI & LLM Agents": [
+        "Prompt engineering & system design",
+        "Function / tool calling (OpenAI, Google)",
+        "LangChain / Llama-index",
+        "smolagents",
+        "LangGraph",
+        "ASR (Whisper, Wave2vec)",
+        "ASR language fine-tuning",
+        "TTS (Matcha TTS, Parler, Spark)",
+        "TTS voice cloning",
+    ],
+
+    # 4 ---------- Generative AI (Text, Audio, 3-D) -----
+    "Generative AI (Cross-Modal)": [
+        "Diffusion models (SD-XL, AudioLDM 2)",
+        "GANs (StyleGAN-3, MelGAN)",
+        "TTS / voice cloning (VALL-E, Bark)",
+    ],
+
+    # 5 ---------- Deep-Learning Engineering ------------
+    "Deep Learning Engineering": [
+        "PyTorch, TensorFlow 2, JAX",
+        "Distributed training (DeepSpeed, Ray)",
+        "4-bit quant-aware training (GPTQ, bits-and-bytes)",
+        "Model pruning / distillation",
+        "Experiment tracking (Weights & Biases)",
+        "Hyper-param search (Optuna, Ax)",
+    ],
+
+    # 6 ---------- Real-Time Communication --------------
+    "Real-Time Communication & Networking": [
+        "WebRTC (ICE/TURN, SFrame-SRTP)",
+        "WebTransport / QUIC datagrams",
+        "WebSockets (Socket.IO, FastAPI)",
+        "gRPC bi-directional streams",
+        "AV1 / VP9 low-latency encoding (NVIDIA Video Codec SDK)",
+        "SRT, RTSP, LL-HLS",
+    ],
+
+    # 7 ---------- Containerisation & MLOps -------------
+    "Containerisation & MLOps": [
+        "Docker, Docker Compose",
+        "NVIDIA Container Toolkit",
+        "Multi-arch Buildx & QEMU (arm64/x86)",
+        "Kubernetes (GPU Operator, Helm)",
+        "CI/CD (GitHub Actions, GitLab CI)",
+    ],
+
+    # 8 ---------- Languages & Dev Tooling --------------
+    "Programming Languages & Tooling": [
+        "Python (asyncio, FastAPI)",
+        "Java",
+        "C",
+        "C++",
+        "Bash / Make / Git",
+        "VS Code, JupyterLab",
+    ],
+}

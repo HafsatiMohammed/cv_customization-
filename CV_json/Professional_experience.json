@@ -1,0 +1,44 @@
+experiences = {
+    # Audio Tech Expert (Real-Time Speech AI)
+    "Audio Tech Expert (Real-Time Speech AI)": {
+        "company":   "Enchanted Tools",
+        "dates":     "Dec 2023 - Present",
+        "location":  "Paris, France",
+        "highlights": [
+            "Scaled voice pipeline to **400+ concurrent WebRTC streams** (< 200 ms RTT) via Redis-backed TTS cache, Opus codecs, smart buffering.",
+            "Ported Whisper-derived ASR to **TensorRT on Jetson Orin** → 2× inference speed-up within 15 W power budget.",
+            "Designed edge/cloud hybrid on Jetson Orin → **> 50 % cloud-cost reduction** while meeting latency SLA.",
+            "Implemented function-calling APIs for seamless robot↔human handoff.",
+            "Demoed at **VivaTech 2024**; prepared robots for CEO TED Talk; co-authored peer-reviewed TTS paper.",
+        ],
+        "tags": [
+            "Python", "WebRTC", "Docker", "TTS", "STT", "ASR"
+        ],
+    },
+
+    # Part-Time Deep Learning Instructor
+    "Part-Time Deep Learning Instructor": {
+        "company":   "University of Toulon & Sorbonne",
+        "dates":     "Sep 2021 - Present",
+        "location":  "Toulon / Paris, France",
+        "highlights": [
+            "Designed & delivered courses on **Python, supervised & deep learning, DSP** to > 60 students per year.",
+            "Supervised **8 MSc theses** on speech enhancement and LLM-powered dialogue systems.",
+        ],
+        "tags": ["Teaching", "Curriculum Design"],
+    },
+
+    # Technical Referent - Speech AI
+    "Technical Referent - Speech AI": {
+        "company":   "Tuito",
+        "dates":     "Mar 2020 - Nov 2023",
+        "location":  "La Ciotat, France",
+        "highlights": [
+            "Architected **multi-tenant SaaS speech-analytics API** (AWS EKS, RDS, Terraform) handling > 25 k calls/day.",
+            "Integrated CNN-based answering-machine detection reaching **97 % F1**; boosted appointment conversion by 18 %.",
+            "Prototyped RAG agent for live call summaries → **60 % reduction** in recruiter note-taking time.",
+            "Published 2 peer-reviewed papers (IWAENC 2022, MMSP 2022); won **€30 k BonsApps** keyword-spotting prize.",
+        ],
+        "tags": ["AWS", "Terraform", "AMD", "LLMs", "Prompt Engineering"],
+    },
+}

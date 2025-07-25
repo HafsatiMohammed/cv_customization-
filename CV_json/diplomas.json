@@ -1,0 +1,20 @@
+diplomas = {
+    # key = degree title (unique)
+    "Ph.D. Applied Mathematics - Signal, Image & Vision": {
+        "school":   "École Doctorale MATHSTIC",
+        "years":    "2017 - 2020",
+        "location": "Rennes, France",
+    },
+
+    "M.Sc. Research SISEA": {
+        "school":   "Supélec / IMT Atlantique",
+        "years":    "2015 - 2016",
+        "location": "Rennes, France",
+    },
+
+    "Engineering Diploma - Electronics & Embedded Systems": {
+        "school":   "ENSSAT",
+        "years":    "2013 - 2016",
+        "location": "Lannion, France",
+    },
+}

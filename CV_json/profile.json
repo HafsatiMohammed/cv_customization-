@@ -1,0 +1,30 @@
+profile = {
+    "name":     "Mohammed HAFSATI",
+    "tagline":  "Ph.D - AI Voice & Audio Processing Leader",
+
+    # Contact / Personal Info
+    "contact": {
+        "email":     "hafsati.mohammed@gmail.com",
+        "phone":     "+33 6 66 35 70 57",
+        "location":  "Paris, France",
+        "linkedin":  "linkedin.com/in/mohammed-hafsati-116413127/",
+        "age":       31,
+    },
+
+    # Executive Summary ("About Me")
+    "summary": (
+        "Seasoned audio-AI architect and team leader with 8+ years building "
+        "real-time, low-latency voice systems - from lab prototypes to production "
+        "scale. Bridges deep research (Ph.D signal processing & AI) with pragmatic "
+        "engineering, scaling TTS/STT, WebRTC, and multi-tenant cloud pipelines to "
+        "thousands of simultaneous calls. Adept at mentoring cross-disciplinary "
+        "teams, crafting funding-ready tech roadmaps, and optimising for both cost "
+        "and user delight."
+    ),
+
+    # Next-Step / Objective (optional)
+    "objective": (
+        "Lead and drive the technical vision of an AI voice-agent startup, owning "
+        "everything from zero-to-one architecture through hyper-growth and beyond."
+    ),
+}

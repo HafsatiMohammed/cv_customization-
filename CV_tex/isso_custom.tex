@@ -1,0 +1,277 @@
+%%%%%%%%%%%%%%%%%
+% Updated CV tailored for Founding CTO role at JobTalk.ai
+%%%%%%%%%%%%%%%%%
+
+\documentclass[9pt,a4paper,ragged2e]{altacv}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{paracol}
+\usepackage{hyperref}
+\usepackage{fontawesome}
+
+% Page geometry
+\geometry{%
+  left=1.5cm,
+  right=1.5cm,
+  top=1.5cm,
+  bottom=1.5cm,
+  marginparwidth=0pt,
+  marginparsep=0pt
+}
+
+% Fonts
+\ifxetexorluatex
+  \setmainfont{Carlito}
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[default]{lato}
+\fi
+
+% Colours
+\definecolor{VividPurple}{HTML}{1282a2}
+\definecolor{VividPurplee}{HTML}{034078}
+\definecolor{SlateGrey}{HTML}{001f54}
+\definecolor{LightGrey}{HTML}{0a1128}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurplee}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Bullet styles
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\addbibresource{sample.bib}
+
+% ----------------------------------------------------------------------
+%                               HEADER
+% ----------------------------------------------------------------------
+\begin{document}
+\name{Mohammed HAFSATI}
+\tagline{Ph.D - AI Voice \& Audio Processing Leader}
+
+\personalinfo{
+\email{hafsati.mohammed@gmail.com}
+    \phone{+33 6 66 35 70 57}
+    \location{Paris, France}
+    \linkedin{linkedin.com/in/mohammed-hafsati-116413127/}
+    \textbf{Age}: 31
+}
+
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+% Ensure smaller font for itemize
+\AtBeginEnvironment{itemize}{\small}
+
+% ----------------------------------------------------------------------
+%                               PROFILE
+% ----------------------------------------------------------------------
+\cvsection[]{Profil}
+Seasoned audio-AI architect and team leader with 8+ years building real-time, low-latency voice systems - from lab prototypes to production scale. Bridges deep research (Ph.D signal processing \& AI) with pragmatic engineering, scaling TTS/STT, WebRTC, and multi-tenant cloud pipelines to thousands of simultaneous calls. Adept at mentoring cross-disciplinary teams, crafting funding-ready tech roadmaps, and optimising for both cost and user delight.
+
+\vspace{4pt}
+
+% ----------------------------------------------------------------------
+%                       PROFESSIONAL EXPERIENCE & DIPLOMAS
+% ----------------------------------------------------------------------
+\begin{paracol}{2}
+% ----------------------------------------------------------------------
+%                             COLUMN 1
+% ----------------------------------------------------------------------
+\cvsection{Professional experience}
+\cvevent{\textbf{Audio Tech Expert (Real-Time Speech AI)}}{Enchanted Tools}{Dec 2023 - Present}{Paris, France}
+\begin{itemize}
+  \item Scaled voice pipeline to \textbf{400+ concurrent WebRTC streams} (< 200 ms RTT) via Redis-backed TTS cache, Opus codecs, smart buffering.
+  \item Ported Whisper-derived ASR to \textbf{TensorRT on Jetson Orin} → 2× inference speed-up within 15 W power budget.
+  \item Designed edge/cloud hybrid on Jetson Orin → \textbf{> 50 \% cloud-cost reduction} while meeting latency SLA.
+  \item Implemented function-calling APIs for seamless robot↔human handoff.
+  \item Demoed at \textbf{VivaTech 2024}; prepared robots for CEO TED Talk; co-authored peer-reviewed TTS paper.
+\end{itemize}
+\cvtag{Python}\cvtag{WebRTC}\cvtag{Docker}\cvtag{TTS}\cvtag{STT}\cvtag{ASR}
+
+\vspace{4pt}
+\cvevent{\textbf{Part-Time Deep Learning Instructor}}{University of Toulon \& Sorbonne}{Sep 2021 - Present}{Toulon / Paris, France}
+\begin{itemize}
+  \item Designed \& delivered courses on \textbf{Python, supervised \& deep learning, DSP} to > 60 students per year.
+  \item Supervised \textbf{8 MSc theses} on speech enhancement and LLM-powered dialogue systems.
+\end{itemize}
+\cvtag{Teaching}\cvtag{Curriculum Design}
+
+\vspace{2pt}
+\cvevent{\textbf{Technical Referent - Speech AI}}{Tuito}{Mar 2020 - Nov 2023}{La Ciotat, France}
+\begin{itemize}
+  \item Architected \textbf{multi-tenant SaaS speech-analytics API} (AWS EKS, RDS, Terraform) handling > 25 k calls/day.
+  \item Integrated CNN-based answering-machine detection reaching \textbf{97 \% F1}; boosted appointment conversion by 18 \%.
+  \item Prototyped RAG agent for live call summaries → \textbf{60 \% reduction} in recruiter note-taking time.
+  \item Published 2 peer-reviewed papers (IWAENC 2022, MMSP 2022); won \textbf{€30 k BonsApps} keyword-spotting prize.
+\end{itemize}
+\cvtag{AWS}\cvtag{Terraform}\cvtag{AMD}\cvtag{LLMs}\cvtag{Prompt Engineering}
+
+\vspace{4pt}
+\cvsection{Interests}
+\textcolor{SlateGrey}{\textbf{Outdoor \& Sports}}\\
+Trail running \textbar{} Gym \& cross training
+
+\vspace{1pt}
+
+\textcolor{SlateGrey}{\textbf{Music \& Audio}}\\
+Audio production (Deep house \& pop beats) \textbar{} Audio plug-in for audio production softwares
+
+\vspace{1pt}
+
+\textcolor{SlateGrey}{\textbf{Tech \& Learning}}\\
+Open-source ML contributions \textbar{} paper\_reviewing (ICRA, Interspeech, ICASSP)
+
+\vspace{1pt}
+
+\textcolor{SlateGrey}{\textbf{Culture \& Languages}}\\
+Personal development reading \textbar{} Arabic calligraphy
+% ----------------------------------------------------------------------
+%                             COLUMN 2
+% ----------------------------------------------------------------------
+\switchcolumn
+\cvsection{Diplomas}
+\cvevent{\faMortarBoard \textbf{Ph.D. Applied Mathematics - Signal, Image \& Vision}}{École Doctorale MATHSTIC}{2017 - 2020}{Rennes, France}
+\cvevent{\faMortarBoard \textbf{M.Sc. Research SISEA}}{Supélec / IMT Atlantique}{2015 - 2016}{Rennes, France}
+\cvevent{\faMortarBoard \textbf{Engineering Diploma - Electronics \& Embedded Systems}}{ENSSAT}{2013 - 2016}{Lannion, France}
+\vspace{2pt}
+\cvsection{Hard Skills}
+\textcolor{SlateGrey}{\textbf{Edge AI \& Embedded Systems}}\\
+NVIDIA Jetson (Nano / Xavier NX / Orin NX / Orin AGX) \textbar{} JetPack SDK \& BSP tweaks \textbar{} TensorRT (INT8/FP8, graph fusion) \textbar{} ONNX / ONNX Graph Surgeon \textbar{} CUDA \& cuDNN kernel profiling \textbar{} Real-time Linux / Yocto
+
+\vspace{0.5pt}
+
+\textcolor{SlateGrey}{\textbf{3-D Audio \& Signal Processing}}\\
+STFT / FFT / filter-bank DSP \textbar{} Beamformings \textbar{} Neural source separation \& speech enhancement \textbar{} Ambisonics (FOA / HOA) rendering \textbar{} Personalised HRTF fitting \textbar{} CUDA-accelerated audio kernels \textbar{} librosa, torchaudio, PortAudio \textbar{} speechbrain
+
+\vspace{0.5pt}
+
+\textcolor{SlateGrey}{\textbf{Conversational AI \& LLM Agents}}\\
+Prompt engineering \& system design \textbar{} Function / tool calling (OpenAI, Google) \textbar{} LangChain / Llama-index \textbar{} smolagents \textbar{} LangGraph \textbar{} ASR (Whisper, Wave2vec) \textbar{} ASR language fine-tuning \textbar{} TTS (Matcha TTS, Parler, Spark) \textbar{} TTS voice cloning
+
+\vspace{0.5pt}
+
+\textcolor{SlateGrey}{\textbf{Generative AI (Cross-Modal)}}\\
+Diffusion models (SD-XL, AudioLDM 2) \textbar{} GANs (StyleGAN-3, MelGAN) \textbar{} TTS / voice cloning (VALL-E, Bark)
+
+\vspace{0.5pt}
+
+\textcolor{SlateGrey}{\textbf{Deep Learning Engineering}}\\
+PyTorch, TensorFlow 2, JAX \textbar{} Distributed training (DeepSpeed, Ray) \textbar{} 4-bit quant-aware training (GPTQ, bits-and-bytes) \textbar{} Model pruning / distillation \textbar{} Experiment tracking (Weights \& Biases) \textbar{} Hyper-param search (Optuna, Ax)
+
+\vspace{0.5pt}
+
+\textcolor{SlateGrey}{\textbf{Real-Time Communication \& Networking}}\\
+WebRTC (ICE/TURN, SFrame-SRTP) \textbar{} WebTransport / QUIC datagrams \textbar{} WebSockets (Socket.IO, FastAPI) \textbar{} gRPC bi-directional streams \textbar{} AV1 / VP9 low-latency encoding (NVIDIA Video Codec SDK) \textbar{} SRT, RTSP, LL-HLS
+
+\vspace{0.5pt}
+
+\textcolor{SlateGrey}{\textbf{Containerisation \& MLOps}}\\
+Docker, Docker Compose \textbar{} NVIDIA Container Toolkit \textbar{} Multi-arch Buildx \& QEMU (arm64/x86) \textbar{} Kubernetes (GPU Operator, Helm) \textbar{} CI/CD (GitHub Actions, GitLab CI)
+
+\vspace{0.5pt}
+
+\textcolor{SlateGrey}{\textbf{Programming Languages \& Tooling}}\\
+Python (asyncio, FastAPI) \textbar{} Java \textbar{} C \textbar{} C++ \textbar{} Bash / Make / Git \textbar{} VS Code, JupyterLab
+\end{paracol}
+\newpage
+% ----------------------------------------------------------------------
+%                         SIDE PROJECTS & SOFT SKILLS
+% ----------------------------------------------------------------------
+\begin{paracol}{2}
+% ----------------------------------------------------------------------
+%                             COLUMN 1
+% ----------------------------------------------------------------------
+\cvsection{Side projects}
+\cvevent{\textbf{Voice Agent SDK}}{Solo developer}{2024 - Present}{home}
+\begin{itemize}
+  \item Built Python SDK wrapping WebRTC, Whisper, and OpenAI with function-calling semantics for rapid voice-agent prototyping.
+\end{itemize}
+\cvtag{Python}\cvtag{WebRTC}\cvtag{Whisper}\cvtag{OpenAI}\cvtag{Function Calling}\cvtag{OSS}
+
+\vspace{6pt}
+\cvevent{\textbf{ASR\_whisper Live Tensorrt (Jetson)}}{Solo developer}{2024 - Present}{home}
+\begin{itemize}
+  \item Implement and optimize WhisperLive using TensorRT on Jetson platforms, including Orin (tested and works) and Xavier (to be tested). The primary goal is to overcome the issue with the tensorrt\_llm library, which cannot be installed on Jetson platforms
+  \item \href{https://github.com/HafsatiMohammed/asr_whisper_live_tensorrt}{\faExternalLink\ https://github.com/HafsatiMohammed/asr\_whisper\_live\_tensorrt}
+\end{itemize}
+\cvtag{Python}\cvtag{WebRTC}\cvtag{Whisper}\cvtag{OpenAI}\cvtag{Function Calling}\cvtag{OSS}
+
+\vspace{6pt}
+\cvevent{\textbf{Custom Wakeword Model Training}}{Solo developer}{2022}{home}
+\begin{itemize}
+  \item Data generation with TTS and youtube videos / Model training 
+  \item \href{https://github.com/HafsatiMohammed/OpenWakeword_KWS_github}{\faExternalLink\ https://github.com/HafsatiMohammed/OpenWakeword\_KWS\_github}
+\end{itemize}
+\cvtag{Python}\cvtag{Deep learning}\cvtag{ffmpeg}
+
+\vspace{4pt}
+\cvevent{\textbf{In Car Speech Separation}}{Solo developer with help of BMW Group for dataset collection}{2022}{home}
+\begin{itemize}
+  \item ENHANCING IN-CAR VOCAL INERACTIONS
+  \item \href{https://github.com/HafsatiMohammed/incar_ss_IcasspVersion}{\faExternalLink\ https://github.com/HafsatiMohammed/incar\_ss\_IcasspVersion}
+  \item \href{https://github.com/HafsatiMohammed/ICASSP_InCar_SS}{\faExternalLink\ https://github.com/HafsatiMohammed/ICASSP\_InCar\_SS}
+\end{itemize}
+\cvtag{Python}\cvtag{Deep learning}
+
+\vspace{4pt}
+\cvevent{\textbf{Speech Enhancement with ConvTasnet}}{Solo developer}{2022}{home}
+\begin{itemize}
+  \item Training of multichannel speech enhancement model using the ConvTasnet architecture
+  \item \href{https://github.com/HafsatiMohammed/SE_Tasnet_github}{\faExternalLink\ https://github.com/HafsatiMohammed/SE\_Tasnet\_github}
+\end{itemize}
+\cvtag{Python}\cvtag{Deep learning}
+
+% ----------------------------------------------------------------------
+%                             COLUMN 2
+% ----------------------------------------------------------------------
+\switchcolumn
+\cvsection{Soft Skills}
+\textcolor{SlateGrey}{\textbf{Leadership \& Team Collaboration}}\\
+Guided small cross-functional squads toward sprint goals \textbar{} Set clear priorities and unblocked teammates proactively \textbar{} Modelled 'servant-leader' mindset - hands-on when needed \textbar{} Built trust through transparent decision-making
+
+\vspace{1pt}
+
+\textcolor{SlateGrey}{\textbf{Strategic Thinking \& Road-Mapping}}\\
+Translated product vision into quarterly technical roadmaps \textbar{} Balanced quick wins vs. long-term architecture health \textbar{} Ran lightweight SWOT / ROI analyses for feature proposals
+
+\vspace{1pt}
+
+\textcolor{SlateGrey}{\textbf{Project Coordination \& Agile Practices}}\\
+Facilitated sprint planning, stand-ups, retrospectives \textbar{} Maintained Kanban board \& burn-down charts for visibility \textbar{} Tracked risks / action items in RAID log or shared doc
+
+\vspace{1pt}
+
+\textcolor{SlateGrey}{\textbf{Communication \& Stakeholder Alignment}}\\
+Synthesised complex tech updates into exec-friendly decks \textbar{} Negotiated trade-offs with PM / Design / QA \textbar{} Chaired demo sessions to gather early feedback
+
+\vspace{1pt}
+
+\textcolor{SlateGrey}{\textbf{Mentoring \& Knowledge Sharing}}\\
+On-boarded new hires through pairing \& code reviews \textbar{} Authored best-practice docs and internal workshops \textbar{} Encouraged 'fail-fast' culture with post-mortems
+
+\vspace{1pt}
+
+\textcolor{SlateGrey}{\textbf{Problem-Solving \& Decision-Making}}\\
+Drove root-cause analyses for production incidents \textbar{} Applied data-driven approach to select ML models \textbar{} Made just-enough decisions under ambiguity \& time-pressure
+
+\vspace{1pt}
+
+\textcolor{SlateGrey}{\textbf{Adaptability \& Growth Mindset}}\\
+Quickly up-skilled on emerging AI frameworks \textbar{} Embraced feedback loops to refine processes \textbar{} Thrived in remote, multicultural teams (English/French)
+
+\vspace{2pt}
+% ----------------------------------------------------------------------
+%                             LANGUAGES
+% ----------------------------------------------------------------------
+\cvsection{Languages}
+\begin{itemize}
+  \item \textbf{English} \hfill C1 Professional Working Proficiency
+  \item \textbf{French} \hfill Native Mother Tongue / Fluent
+  \item \textbf{Arabic} \hfill Fluent Full Professional Proficiency
+\end{itemize}
+\end{paracol}
+\end{document}

@@ -1,0 +1,71 @@
+side_projects = {
+    "voice_agent_sdk": {                     # machine-readable slug
+        "title":      "Voice Agent SDK",
+        "role":       "Solo developer",
+        "dates":      "2024 - Present",
+        "location":   "home",
+        "highlights": [
+            "Built Python SDK wrapping WebRTC, Whisper, and OpenAI with function-calling semantics for rapid voice-agent prototyping."
+        ],
+        "tags":       ["Python", "WebRTC", "Whisper", "OpenAI", "Function Calling", "OSS"],
+        # Optional
+        "url":        "Not public yet"
+    },
+    "Whisper Optimisation for Jetson NX": {                     # machine-readable slug
+        "title":      "ASR_whisper Live Tensorrt (Jetson)",
+        "role":       "Solo developer",
+        "dates":      "2024 - Present",
+        "location":   "home",
+        "highlights": [
+            "Implement and optimize WhisperLive using TensorRT on Jetson platforms, including Orin (tested and works) and Xavier (to be tested). The primary goal is to overcome the issue with the tensorrt_llm library, which cannot be installed on Jetson platforms"
+        ],
+        "tags":       ["Python", "WebRTC", "Whisper", "OpenAI", "Function Calling", "OSS"],
+        # Optional
+        "url":        "https://github.com/HafsatiMohammed/asr_whisper_live_tensorrt"
+    },
+
+    "Custom Wakeword Model Training": {                     # machine-readable slug
+        "title":      "Custom Wakeword Model Training",
+        "role":       "Solo developer",
+        "dates":      "2022",
+        "location":   "home",
+        "highlights": [
+           "Data generation with TTS and youtube videos / Model training "     
+        ],
+        "tags":       ["Python", "Deep learning", "ffmpeg"],
+        # Optional
+        "url":        "https://github.com/HafsatiMohammed/OpenWakeword_KWS_github"
+    },
+
+    "In Car Speech Separation": {                     # machine-readable slug
+        "title":      "In Car Speech Separation",
+        "role":       "Solo developer with help of BMW Group for dataset collection",
+        "dates":      "2022",
+        "location":   "home",
+        "highlights": [
+           "ENHANCING IN-CAR VOCAL INERACTIONS"     
+        ],
+        "tags":       ["Python", "Deep learning"],
+        # Optional
+        "url":        "https://github.com/HafsatiMohammed/incar_ss_IcasspVersion, https://github.com/HafsatiMohammed/ICASSP_InCar_SS"
+    },
+
+
+    "Speech Enhancement": {                     # machine-readable slug
+        "title":      "Speech Enhancement with ConvTasnet",
+        "role":       "Solo developer",
+        "dates":      "2022",
+        "location":   "home",
+        "highlights": [
+           "Training of multichannel speech enhancement model using the ConvTasnet architecture"     
+        ],
+        "tags":       ["Python", "Deep learning"],
+        # Optional
+        "url":        "https://github.com/HafsatiMohammed/SE_Tasnet_github"
+    },
+
+
+
+
+
+}
